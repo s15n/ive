@@ -1,0 +1,14 @@
+{
+    "name": "ive-fw",
+    "version": "1.0.1",
+    "description": "A lightweight front-end framework",
+    "author": "s15n",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2",
+        "vite": "^5.1.4"
+    }
+}
