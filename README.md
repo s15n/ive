@@ -118,7 +118,7 @@ export default ive.wait(fetch('https://jsonplaceholder.typicode.com/posts').then
         <h1>Posts</h1>
         <ul>
             {posts.map((post: any) => (
-                <li key={post.id}>
+                <li>
                     <h2>{post.title}</h2>
                     <p>{post.body}</p>
                 </li>
