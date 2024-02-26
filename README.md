@@ -25,7 +25,7 @@ import ive from 'ive-fw/ive';
 ```
 
 You have to add the following to your `tsconfig.json` file:
-```json
+```jsonc
 {
   "compilerOptions": {
     /* ... */
@@ -137,6 +137,7 @@ const Home = () => (
     <div>
         <h1>Home</h1>
         <p>Welcome to the home page!</p>
+        <Link href="/about">About</Link>
     </div>
 );
 

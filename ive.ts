@@ -206,7 +206,6 @@ export function router(path: string, routes: { [key: string]: (
 
 export function routeTo(href: string, replace: boolean = false) {
     const state = { href: href };
-    console.log('click', href);
     if (replace) {
         history.replaceState(state, '', href);
     } else {
