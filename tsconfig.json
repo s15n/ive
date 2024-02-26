@@ -2,8 +2,6 @@
   "compilerOptions": {
     /* Custom JSX Factory */
     "jsx": "preserve",
-    "jsxFactory": "ive._jsx",
-    "jsxFragmentFactory": "ive._jsxFragment",
 
     "target": "ES2020",
     "useDefineForClassFields": true,
