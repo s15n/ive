@@ -4,17 +4,17 @@
 [![npm](https://img.shields.io/npm/dt/ive-fw)](https://www.npmjs.com/package/ive-fw)
 ![GitHub](https://img.shields.io/github/license/s15n/ive)
 
-An extremely lightweight front-end framework best used
+IVE /ˈaɪ.viː/ is an extremely lightweight front-end framework best used
 alongside Vite and TypeScript.
 
 ## Features
 
-- Extremely small and lightweight (in fact, the smallest framework I know of)
+- Extremely small and lightweight <!--(in fact, the smallest framework I know of)-->
 - No virtual DOM <!--, no diffing, no reconciliation (idk what that means)-->
 - No dependencies
 - TypeScript and JSX support
 - Really just two functions: `ive.createState` and `ive.watch`
-- Convenience functions for awaiting promises and routing
+- Convenience functions on top for awaiting promises and routing
 
 ## Installation
 
@@ -118,7 +118,7 @@ export default ive.wait(fetch('https://jsonplaceholder.typicode.com/posts').then
         <h1>Posts</h1>
         <ul>
             {posts.map((post: any) => (
-                <li key={post.id}>
+                <li>
                     <h2>{post.title}</h2>
                     <p>{post.body}</p>
                 </li>
