@@ -11,5 +11,9 @@
         "typescript": "^5.2.2",
         "vite": "^5.1.4"
     },
-    "license": "GPL-3.0-only"
+    "license": "GPL-3.0-only",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/s15n/ive.git"
+    }
 }
